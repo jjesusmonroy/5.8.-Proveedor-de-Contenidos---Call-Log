@@ -50,12 +50,13 @@ public class MainActivity extends AppCompatActivity {
         Cursor c = managedQuery(allCalls,null,null,null,null);
         logs = new String[c.getCount()][4];
         int counter =0;
-        c.moveToFirst();
-        while(c.moveToNext()){
+        c.moveToLast();
+        for(int i=c.getCount();i>0;i--){
             logs[counter][0]= c.getString(c.getColumnIndex(CallLog.Calls.NUMBER));// for  number
             logs[counter][1]= c.getString(c.getColumnIndex(CallLog.Calls.CACHED_NAME));// for name
             logs[counter][2]= c.getString(c.getColumnIndex(CallLog.Calls.DURATION));// for  number
             logs[counter][3]= c.getString(c.getColumnIndex(CallLog.Calls.TYPE));
+            c.moveToPrevious();
             counter++;
         }
     }
