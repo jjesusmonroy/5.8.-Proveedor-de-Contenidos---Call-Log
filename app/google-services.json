@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "635650766893",
+    "firebase_url": "https://calllog-557ba.firebaseio.com",
+    "project_id": "calllog-557ba",
+    "storage_bucket": "calllog-557ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635650766893:android:ce4b9705291c12cf",
+        "android_client_info": {
+          "package_name": "gpsgooglemaps.monroy.com.a58calllog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "635650766893-40k4ddblo6tp5ikcgjdjfth80rulmdqk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "gpsgooglemaps.monroy.com.a58calllog",
+            "certificate_hash": "22e1ba93e68af4050dd61a2a17ee5dd7274fae07"
+          }
+        },
+        {
+          "client_id": "635650766893-ja9d856qj7f1vhf91lh33k4nc9qhmdvg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQbudcNp2GUpPFBzbob1Z5YxG3fgHWgxg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "635650766893-ja9d856qj7f1vhf91lh33k4nc9qhmdvg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
