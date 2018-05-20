@@ -27,9 +27,6 @@ public class CallAdapter extends RecyclerView.Adapter<CallAdapter.RecyclerViewHo
 
     @Override
     public void onBindViewHolder(CallAdapter.RecyclerViewHolder holder, int position) {
-    /*        OUTGOING = 2;
-                INCOMING =1;
-                MISSED = 3*/
         holder.number.setText(data[position][0]);
         holder.name.setText(data[position][1]);
         holder.duration.setText(data[position][2]+" minutes");
